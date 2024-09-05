@@ -27,7 +27,7 @@ jobs:
 
   continuous-delivery:
     machine: true
-    resource_class: susan/nlpprojectrunner
+    resource_class: susan/speechclassification
     steps:
       - aws-cli/setup
 
