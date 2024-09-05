@@ -63,9 +63,11 @@ class PredictionPipeline:
             pred
             print("pred", pred)
             if pred<0.5:
-                print("no hate")
+                print("This sentence considered as normal")
+                return "This sentence considered as normal"
             else:
-                print("hate and abusive")
+                print("This sentence considered as hate and abusive")
+                return "This sentence considered as hate and abusive"
         except Exception as e:
                 raise CustomException(e, sys) from e
 
