@@ -9,6 +9,6 @@ scikit-learn
 from-root
 google-cloud-storage
 fastapi==0.100.0
-uvicorn==0.23.0
+uvicorn==0.22.0
 Jinja2==3.1.2
 -e .
