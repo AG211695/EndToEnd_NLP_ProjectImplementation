@@ -39,12 +39,12 @@ jobs:
 
       - run:
           name: pull image from private repository
-          command: docker pull 463470965017.dkr.ecr.us-east-2.amazonaws.com/nlpproject:latest
+          command: docker pull 463470965017.dkr.ecr.us-east-2.amazonaws.com/demo:latest
           
       
       - run:
           name: run image
-          command: docker run -d -p 8080:8080 463470965017.dkr.ecr.us-east-2.amazonaws.com/nlpproject:latest
+          command: docker run -d -p 8080:8080 463470965017.dkr.ecr.us-east-2.amazonaws.com/demo:latest
 workflows:
   CICD:
     jobs:
