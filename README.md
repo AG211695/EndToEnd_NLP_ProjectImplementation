@@ -21,6 +21,8 @@ This project was developed using modern deep learning techniques, software engin
 #### Environment Setup:
 - **VS Code**: For environment setup and code execution.
 - **GitHub**: For version control and project management.
+  
+  ![snippet of my VS code setup](Images/ss_vscode.png)
 
 #### Data Processing:
 - **Data Ingestion**: Used "Gcloud Buckets" as data storage.
@@ -69,10 +71,20 @@ Thorough model evaluation using confusion matrices helps ensure balanced perform
 #### Building APIs with FastAPI
 FastAPI is an excellent framework for building fast and scalable APIs that can easily integrate machine learning models.
 Learned how to serve models through APIs, allowing real-time classification for end-users.
+
+![application Setup](Images/ss_FAPI.png)
+
 #### Deployment and CI/CD
 Gained experience in cloud computing and deployment with AWS EC2. Understanding how to configure, secure, and monitor cloud services is crucial.
 The power of CircleCI for automating the deployment process, making sure that the model can be continuously improved without downtime.
 Use of Docker for containerizing applications, simplifying the deployment and scaling process.
+
+![CL/CD setup snippets](Images/ss_aws.png)
+
+![CL/CD setup snippets](Images/ss_cicd1.png)
+
+![CL/CD setup snippets](Images/ss_cicd2.png)
+
 #### Project Structuring for Industry Standards
 I organized the project with a clear modular structure for data ingestion, data validation, transformation, model training, evaluation, and serving.
 Logging and exception handling were critical for tracking errors and maintaining robustness in a production setting.
