@@ -90,3 +90,4 @@ I organized the project with a clear modular structure for data ingestion, data 
 Logging and exception handling were critical for tracking errors and maintaining robustness in a production setting.
 Separation of configuration, artifacts, and constants to make the project scalable and easy to modify for future extensions.
 
+![Demo](Images/FastAPI - Swagger UI - Google Chrome 2024-09-05 19-42-02.gif)
