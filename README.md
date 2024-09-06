@@ -32,6 +32,8 @@ This project was developed using modern deep learning techniques, software engin
   - Removing stopwords (using `nltk`)
   - Padding sequences for uniform input length.
 
+  ![snippet of GCP Bucket](Images/ss_gcp.png)
+
 #### Model Training:
 - **TensorFlow & Keras**: The deep learning framework used to build the classification model.
 - **Sequential Model**: Built a sequential neural network architecture with the following layers:
